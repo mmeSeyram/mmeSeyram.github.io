@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(to left,red,yellow);
+    color:green
+}
+.cercle{
+    border-radius: 50%;
+    background-color:blue;
+    height: 200px;
+    width: 150px;
+    animation-name: tourner;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: forwards;
+}
+.triangle{
+    border-bottom-right-radius:100px ;
+    border-bottom-left-radius:100px;
+    background-color: blueviolet;
+    height: 150px;
+    width: 150px;
+
+}
+@-o-keyframes {
+    0%{
+        rotate: 0deg;
+    }
+    50%{
+        rotate: 180deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+
