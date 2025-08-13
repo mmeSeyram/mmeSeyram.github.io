@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PageWebCosmetiques</title>
+        <link rel="stylesheet" href="page.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#Acceuil">Accueil</a></li>
+                    <li><a href="#Nos produits">Nos produits</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class = "bloque">
+                <div class = "partie1">
+                    <img id = "image" src="fille_fleur_rose_afro.jpg">
+                    <img id = "image" src="fille_belle_huile.jpg">
+                </div>
+                <div class = "partie2">
+                    <h1 id="Acceuil">Accueil</h1>
+                        <p id ="e1">Bienvenue sur notre page web dédiée aux cosmétiques !</p>
+                        <p id ="e2">Découvrez nos produits de beauté et de soins pour la peau.</p>
+                        <p id ="e3">Nous sommes passionnés par la cosmétique et nous nous engageons à vous offrir les meilleurs produits.</p>
+                        <p id ="e4">Explorez notre gamme de produits et trouvez ceux qui vous conviennent le mieux.</p>
+                        <p id ="e5">Nous sommes là pour répondre à toutes vos questions et vous aider à choisir les produits qui vous conviennent.</p>
+                    <h1 id="Nos produits">Nos produits</h1>
+                        <div class ="produits">
+                            <div class="produit">
+                                <img id ="image_2" src="cremehydratante.jpg" alt="Produit 1">
+                                <h2>Crème hydratante</h2>
+                                <p>Une crème légère et hydratante pour tous les types de peau.</p>
+                            </div>
+                            <div class="produit">
+                                <img id ="image_2" src="serum-anti-age.webp" alt="Produit 2">
+                                <h2>Sérum anti-âge</h2>
+                                <p>Un sérum puissant pour réduire les signes de l'âge.</p>
+                            </div>
+                            <div class="produit">
+                                <img id ="image_2" src="Masque_purifiant.jpg" alt="Produit 3">
+                                <h2>Masque purifiant</h2>
+                                <p>Un masque qui nettoie en profondeur et purifie la peau.</p>
+                            </div>
+                            <div class="produit">
+                                <img id ="image_2" src="affordable-mascaras.jpg" alt="Produit 4">
+                                <h2>Mascara</h2>
+                                <p>Un mascara pour faire ressortir l'éclat et la beauté de vos cils.</p>
+                            </div>
+                            <div class="produit">
+                                <img id ="image_2" src="rouge_a_levre.jpg" alt="Produit 5">
+                                <h2>Rouge à lèvre</h2>
+                                <p>Un rouge à lèvre sublime vos lèvre avec un éclat inoubliable </p>
+                            </div>
+                            <div class="produit">
+                                <img id ="image_2" src="fond_de_teint.jpg" alt="Produit 6">
+                                <h2>Fond de teint</h2>
+                                <p>Résistant, un parfait édifice pour votre maquillage.</p>
+                            </div>
+                            <div class="produit">
+                                <img id ="image_2" src="parfum.webp" alt="Produit 7">
+                                <h2>Parfum</h2>
+                                <p>Hypnotisant et ennivrant</p>
+                            </div>
+                            <div class="produit">
+                                <img id ="image_2" src="savon.webp" alt="Produit 8">
+                                <h2>Savon</h2>
+                                <p>Hydratant et parfumé pour ravivez et redonner de l'éclat à votre peau</p>
+                            </div>
+                        </div>
+                    <div class="contact">
+                        <h1 id="Contact">Contact</h1>
+                        <address>
+                            Téléphone :+228 90 00 00 00<br>
+                            Email : <a href="mailto:exemple@email.com">exemple@email.com</a><br>
+                            Adresse : Lomé, Togo
+                        </address>
+                    </div>
+                </div>
+            </div>
+            <div class="boutton">
+                <input onclick="Formulaire()" type="button" value="Passez une commande" id = "bouton">
+            </div>
+            <div class="Formulaire" id="formulaire" style ="display: none;">
+                <form>
+                    <p>Veuillez remplir les information ci-dessous</p>
+                    <label>Nom :</label>
+                        <input id="name" type="text" name="nom" required>
+                    <label>Email :</label>
+                        <input type="email" name="email"><br><br>
+                    <label>Numéro de téléphone:</label>
+                        <select name="cope_pays" id="code_pays">
+                            <option value="+1">+1 (États-Unis/Canada)</option>
+                            <option value="+33">+33 (France)</option>
+                            <option value="+32">+32 (Belgique)</option>
+                            <option value="+41">+41 (Suisse)</option>
+                            <option value="+228">+228 (Togo)</option>
+                            <option value="+229">+229 (Bénin)</option>
+                            <option value="+225">+225 (Côte d'Ivoire)</option>
+                            <option value="+226">+226 (Burkina Faso)</option>
+                            <option value="+227">+227 (Niger)</option>
+                            <option value="+221">+221 (Sénégal)</option>
+                            <option value="+222">+222 (Mauritanie)</option>
+                            <option value="+223">+223 (Mali)</option>
+                            <option value="+224">+224 (Guinée)</option>
+                            <option value="+237">+237 (Cameroun)</option>
+                            <option value="+238">+238 (Cap-Vert)</option>
+                            <option value="+242">+242 (Congo)</option>
+                            <option value="+243">+243 (RDC)</option>
+                            <option value="+241">+241 (Gabon)</option>
+                            <option value="+240">+240 (Guinée équatoriale)</option>
+                            <option value="+212">+212 (Maroc)</option>
+                            <option value="+213">+213 (Algérie)</option>
+                            <option value="+216">+216 (Tunisie)</option>
+                            <option value="+218">+218 (Libye)</option>
+                            <option value="+234">+234 (Nigeria)</option>
+                            <option value="+44">+44 (Royaume-Uni)</option>
+                            <option value="+49">+49 (Allemagne)</option>
+                            <option value="+39">+39 (Italie)</option>
+                            <option value="+34">+34 (Espagne)</option>
+                        </select>
+                        <input type="tel" name="phone_number" required><br><br>
+                    <label>Numéro de votre carte de fidélité:</label>
+                        <input  pattern="[0-9]{10}" type="text" name="numero_de_carte_de_fidelite">
+                    <p>Nos produits</p>
+                        <div class="produits">
+                            <input type="checkbox" name="produit1" value="Crème hydratante" onchange="affiche(this)"> Crème hydratante
+                            <p id="quantité1" style="display: none;">Quantité:
+                                <label>
+                                    <input type="number" min="1">
+                                </label>
+                            </p>
+                            <input type="checkbox" name="produit2" value="Sérum anti-âge" onchange="affiche(this)"> Sérum anti-âge
+                            <p id="quantité2" style="display: none;">Quantité:
+                                <label>
+                                    <input type="number" min="1">
+                                </label>
+                            </p>
+                            <input type="checkbox" name="produit3" value="Masque purifiant" onchange="affiche(this)"> Masque purifiant
+                            <p id="quantité3" style="display: none;">Quanité:
+                                <label>
+                                    <input type="number" min="1">
+                                </label>
+                            </p>
+                            <input type="checkbox" name="produit4" value="rouge à lèvre" onchange="affiche(this)"> Rouge à lèvre
+                            <div class="variantes" style="display: none;">
+                                <input type="checkbox" name="produit4" value="rouge à lèvre" onchange="affiche(this)"> Rouge
+                                <p id="quantité4" style="display: none;">Quantité:
+                                    <label>
+                                        <input type="number" min="1">
+                                    </label>
+                                </p>
+                                <input type="checkbox" name="produit4" value="rouge à lèvre" onchange="affiche(this)"> Rose
+                                <p id="quantité4" style="display: none;">Quantité:
+                                    <label>
+                                        <input type="number" min="1">
+                                    </label>
+                                </p>
+                                <input type="checkbox" name="produit4" value="rouge à lèvre" onchange="affiche(this)">violet
+                                <p id="quantité2" style="display: none;">Quantité:
+                                    <label>
+                                        <input type="number" min="1">
+                                    </label>
+                                </p>
+                                <input type="checkbox" name="produit2" value="rouge à lèvre" onchange="affiche(this)"> noir
+                                <p id="quantité2" style="display: none;">Quantité:
+                                    <label>
+                                        <input type="number" min="1">
+                                    </label>
+                                </p>
+                                <input type="checkbox" name="produit4" value="rouge à lèvre" onchange="affiche(this)"> Marron
+                                <p id="quantité4" style="display: none;">Quantité:
+                                    <label>
+                                        <input type="number" min="1">
+                                    </label>
+                                </p>
+                            </div>
+                            <input type="checkbox" name="produit5" value="mascara" onchange="affiche(this)">Mascara
+                            <p id="quantité5" style="display: none;">Quantité:
+                                <label>
+                                    <input type="number" min="1">
+                                </label>
+                            </p>
+                            <input type="checkbox" name="produit6" value="Fond de teint" onchange="affiche(this)">Fond de teint
+                            <div class="variantes" style="display: none;">
+                                <input type="checkbox" name="produit4" value="rouge à lèvre" onchange="affiche(this)">blanc pompom
+                                <p id="quantité4" style="display: none;">Quantité:
+                                    <label>
+                                        <input type="number" min="1">
+                                    </label>
+                                </p>
+                                <input type="checkbox" name="produit4" value="rouge à lèvre" onchange="affiche(this)"> Rose
+                                <p id="quantité4" style="display: none;">Quantité:
+                                    <label>
+                                        <input type="number" min="1">
+                                    </label>
+                                </p>
+                                <input type="checkbox" name="produit4" value="rouge à lèvre" onchange="affiche(this)">blanc ancre
+                                <p id="quantité2" style="display: none;">Quantité:
+                                    <label>
+                                        <input type="number" min="1">
+                                    </label>
+                                </p>
+                                <input type="checkbox" name="produit4" value="rouge à lèvre" onchange="affiche(this)"> café sombre
+                                <p id="quantité2" style="display: none;">Quantité:
+                                    <label>
+                                        <input type="number" min="1">
+                                    </label>
+                                </p>
+                                <input type="checkbox" name="produit4" value="rouge à lèvre" onchange="affiche(this)"> café au lait
+                                <p id="quantité4" style="display: none;">Quantité:
+                                    <label>
+                                        <input type="number" min="1">
+                                </label>
+                                </p>
+                            </div>
+                        <input type="checkbox" name="produit7" value="Crème solaire" onchange="affiche(this)">Crème solaire
+                        <p id="quantité7" style="display: none;">Quantité:
+                            <label>
+                                <input type="number" min="1">
+                            </label>
+                        </p>
+                        <input type="checkbox" name="produit8" value="Parfum" onchange="affiche(this)">Parfum
+                        <div class="variantes" style="display: none;">
+                            <input type="checkbox" name="produit4" value="rouge à lèvre" onchange="affiche(this)"> Purade
+                            <p id="quantité4" style="display: none;">Quantité:
+                            <label>
+                                <input type="number" min="1">
+                            </label>
+                            </p>
+                            <input type="checkbox" name="produit4" value="rouge à lèvre" onchange="affiche(this)">  Le Marin noir
+                            <p id="quantité4" style="display: none;">Quantité:
+                            <label>
+                                <input type="number" min="1">
+                            </label>
+                            </p>
+                            <input type="checkbox" name="produit4" value="rouge à lèvre" onchange="affiche(this)">  Rose valet
+                            <p id="quantité2" style="display: none;">Quantité:
+                            <label>
+                                <input type="number" min="1">
+                            </label>
+                            </p>
+                            <input type="checkbox" name="produit2" value="rouge à lèvre" onchange="affiche(this)"> Saint michelle
+                            <p id="quantité2" style="display: none;">Quantité:
+                            <label>
+                                <input type="number" min="1">
+                            </label>
+                            </p>
+                            <input type="checkbox" name="produit4" value="rouge à lèvre" onchange="affiche(this)"> Eau de cologne
+                            <p id="quantité4" style="display: none;">Quantité:
+                                <label>
+                                    input type="number" min="1">
+                                </label>
+                            </p>
+                        </div>
+                        <input type="checkbox" name="produit9" value="Déodorant" onchange="affiche(this)">Déodorant
+                        <p id="quantité9" style="display: none;">Quantité:
+                            <label>
+                                <input type="number" min="1">
+                            </label>
+                        </p><br>
+                        
+                        <a href="#question" onclick="affichage()">Des questions?</a>
+                        <p id="question" style="display: none;">
+                            <label>
+                                <input type="text" placeholder="Que pouvons-nous faire pour vous aider?">
+                                <button onclick="valide()" id="envoie_inquietude" type="button">Envoyer</button>
+                            </label>
+                        </p>
+                    </div>               
+                    <button onclick="CFormulaire()" id="validation_commande" type="button">Valider ma commande</button>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2025 PageWebCosmetiques. Tous droits réservés.</p>
+        </footer>
+        <script src="page.js"></script>
+    </body>
+</html>
+
+    
