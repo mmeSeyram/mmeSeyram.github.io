@@ -92,7 +92,7 @@
                         <input id="name" type="text" name="nom" required>
                     <label>Email :</label>
                         <input type="email" name="email"><br><br>
-                    <label>Numéro de téléphone:</label>
+                    <label>Numéro de téléphone:
                         <select name="cope_pays" id="code_pays">
                             <option value="+1">+1 (États-Unis/Canada)</option>
                             <option value="+33">+33 (France)</option>
@@ -124,154 +124,20 @@
                             <option value="+34">+34 (Espagne)</option>
                         </select>
                         <input type="tel" name="phone_number" required><br><br>
-                    <label>Numéro de votre carte de fidélité:</label>
-                        <input  pattern="[0-9]{10}" type="text" name="numero_de_carte_de_fidelite">
-                    <p>Nos produits</p>
-                        <div class="produits">
-                            <input type="checkbox" name="produit1" value="Crème hydratante" onchange="affiche(this)"> Crème hydratante
-                            <p id="quantité1" style="display: none;">Quantité:
-                                <label>
-                                    <input type="number" min="1">
-                                </label>
-                            </p>
-                            <input type="checkbox" name="produit2" value="Sérum anti-âge" onchange="affiche(this)"> Sérum anti-âge
-                            <p id="quantité2" style="display: none;">Quantité:
-                                <label>
-                                    <input type="number" min="1">
-                                </label>
-                            </p>
-                            <input type="checkbox" name="produit3" value="Masque purifiant" onchange="affiche(this)"> Masque purifiant
-                            <p id="quantité3" style="display: none;">Quanité:
-                                <label>
-                                    <input type="number" min="1">
-                                </label>
-                            </p>
-                            <input type="checkbox" name="produit4" value="rouge à lèvre" onchange="affiche(this)"> Rouge à lèvre
-                            <div class="variantes" style="display: none;">
-                                <input type="checkbox" name="produit4" value="rouge à lèvre" onchange="affiche(this)"> Rouge
-                                <p id="quantité4" style="display: none;">Quantité:
-                                    <label>
-                                        <input type="number" min="1">
-                                    </label>
-                                </p>
-                                <input type="checkbox" name="produit4" value="rouge à lèvre" onchange="affiche(this)"> Rose
-                                <p id="quantité4" style="display: none;">Quantité:
-                                    <label>
-                                        <input type="number" min="1">
-                                    </label>
-                                </p>
-                                <input type="checkbox" name="produit4" value="rouge à lèvre" onchange="affiche(this)">violet
-                                <p id="quantité2" style="display: none;">Quantité:
-                                    <label>
-                                        <input type="number" min="1">
-                                    </label>
-                                </p>
-                                <input type="checkbox" name="produit2" value="rouge à lèvre" onchange="affiche(this)"> noir
-                                <p id="quantité2" style="display: none;">Quantité:
-                                    <label>
-                                        <input type="number" min="1">
-                                    </label>
-                                </p>
-                                <input type="checkbox" name="produit4" value="rouge à lèvre" onchange="affiche(this)"> Marron
-                                <p id="quantité4" style="display: none;">Quantité:
-                                    <label>
-                                        <input type="number" min="1">
-                                    </label>
-                                </p>
-                            </div>
-                            <input type="checkbox" name="produit5" value="mascara" onchange="affiche(this)">Mascara
-                            <p id="quantité5" style="display: none;">Quantité:
-                                <label>
-                                    <input type="number" min="1">
-                                </label>
-                            </p>
-                            <input type="checkbox" name="produit6" value="Fond de teint" onchange="affiche(this)">Fond de teint
-                            <div class="variantes" style="display: none;">
-                                <input type="checkbox" name="produit4" value="rouge à lèvre" onchange="affiche(this)">blanc pompom
-                                <p id="quantité4" style="display: none;">Quantité:
-                                    <label>
-                                        <input type="number" min="1">
-                                    </label>
-                                </p>
-                                <input type="checkbox" name="produit4" value="rouge à lèvre" onchange="affiche(this)"> Rose
-                                <p id="quantité4" style="display: none;">Quantité:
-                                    <label>
-                                        <input type="number" min="1">
-                                    </label>
-                                </p>
-                                <input type="checkbox" name="produit4" value="rouge à lèvre" onchange="affiche(this)">blanc ancre
-                                <p id="quantité2" style="display: none;">Quantité:
-                                    <label>
-                                        <input type="number" min="1">
-                                    </label>
-                                </p>
-                                <input type="checkbox" name="produit4" value="rouge à lèvre" onchange="affiche(this)"> café sombre
-                                <p id="quantité2" style="display: none;">Quantité:
-                                    <label>
-                                        <input type="number" min="1">
-                                    </label>
-                                </p>
-                                <input type="checkbox" name="produit4" value="rouge à lèvre" onchange="affiche(this)"> café au lait
-                                <p id="quantité4" style="display: none;">Quantité:
-                                    <label>
-                                        <input type="number" min="1">
-                                </label>
-                                </p>
-                            </div>
-                        <input type="checkbox" name="produit7" value="Crème solaire" onchange="affiche(this)">Crème solaire
-                        <p id="quantité7" style="display: none;">Quantité:
-                            <label>
-                                <input type="number" min="1">
-                            </label>
-                        </p>
-                        <input type="checkbox" name="produit8" value="Parfum" onchange="affiche(this)">Parfum
-                        <div class="variantes" style="display: none;">
-                            <input type="checkbox" name="produit4" value="rouge à lèvre" onchange="affiche(this)"> Purade
-                            <p id="quantité4" style="display: none;">Quantité:
-                            <label>
-                                <input type="number" min="1">
-                            </label>
-                            </p>
-                            <input type="checkbox" name="produit4" value="rouge à lèvre" onchange="affiche(this)">  Le Marin noir
-                            <p id="quantité4" style="display: none;">Quantité:
-                            <label>
-                                <input type="number" min="1">
-                            </label>
-                            </p>
-                            <input type="checkbox" name="produit4" value="rouge à lèvre" onchange="affiche(this)">  Rose valet
-                            <p id="quantité2" style="display: none;">Quantité:
-                            <label>
-                                <input type="number" min="1">
-                            </label>
-                            </p>
-                            <input type="checkbox" name="produit2" value="rouge à lèvre" onchange="affiche(this)"> Saint michelle
-                            <p id="quantité2" style="display: none;">Quantité:
-                            <label>
-                                <input type="number" min="1">
-                            </label>
-                            </p>
-                            <input type="checkbox" name="produit4" value="rouge à lèvre" onchange="affiche(this)"> Eau de cologne
-                            <p id="quantité4" style="display: none;">Quantité:
-                                <label>
-                                    input type="number" min="1">
-                                </label>
-                            </p>
-                        </div>
-                        <input type="checkbox" name="produit9" value="Déodorant" onchange="affiche(this)">Déodorant
-                        <p id="quantité9" style="display: none;">Quantité:
-                            <label>
-                                <input type="number" min="1">
-                            </label>
-                        </p><br>
-                        
+                    </label>
+                    <label>Numéro de votre carte de fidélité:
+                        <input  pattern="[0-9]{10}" type="number" name="numero_de_carte_de_fidelite">
+                    </label>
+                    <div class="selection_produit">
+                        <p>Nos produits</p>
+                    </div>                       
                         <a href="#question" onclick="affichage()">Des questions?</a>
                         <p id="question" style="display: none;">
                             <label>
                                 <input type="text" placeholder="Que pouvons-nous faire pour vous aider?">
                                 <button onclick="valide()" id="envoie_inquietude" type="button">Envoyer</button>
                             </label>
-                        </p>
-                    </div>               
+                        </p>            
                     <button onclick="CFormulaire()" id="validation_commande" type="button">Valider ma commande</button>
                 </form>
             </div>
