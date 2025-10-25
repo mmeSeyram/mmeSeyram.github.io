@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="eng">
-    <head>
-        <meta charset="utf-8">
-        <title>MycometicsWebpage</title>
-        <link rel="stylesheet" href="page.css">
-    </head>
-    <boby>
-        <header>
-            <nav>
-                <ul>
-                    <li href = #Votre_compte>Votre compte</li>
-                    <li href = #Nos_produit>Nos produits</li>
-                    <li href = #Apropos_de_nous>A propos de nous</li>
-                    <li href = #contact>Contact</li>
-                </ul>
-            </nav>
-        </header>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" contente="width=device-width, initial-scale=1.0">
+    <title>MycometicsWebpage</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+<boby>
+    <header>
+        <nav>
+            <ul>
+                <li href=#Votre_compte>Votre compte</li>
+                <li href=#Nos_produit>Nos produits</li>
+                <li href=#Apropos_de_nous>A propos de nous</li>
+                <li href=#contact>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
         <div class="presentation">
             <div class="partie_1">
                 <img src="fille_belle_huile.jpg">
@@ -25,16 +28,26 @@
                 <h2 id="Nos_produits"></h2>
                 <div class="Produits">
                     <img src="savon.webp">
-                    <p>Savon</p>
+                    <p id="savon">Savon</p>
                     <label>
-                        <input type="checkbox" value="savon">
-                        <input type="number" min="1">
+                        <input type="checkbox">Savon noir<br>
+                        <small>Il vous offre une élimination douce de la peau morte ce qui rend votre peau plus lisse (Très
+                            recommandé pour les peaus graisseuse)</small><br>
+                        <input type="checkbox">Savon à l'argan<br>
+                        <small>Nettoyant votre peau en profondeur, le savon à l'argan permet d'hydrater votre peau en
+                         profondeur</small><br>
+                        <input type="checkbox">Savon simple<br>
+                        <small>Nettoie les saleter de votre cours et vous rend plus fraic</small>
                     </label>
                     <img src="rouge_a_levre.jpg">
                     <p>Rouge à lèvre</p>
                     <label>
-                        <input type="checkbox" value="rouge_à_lèvre">
-                        <input type="number" min="1">
+                        <input type="checkbox">Gloss<br>
+                        <small>Offre ce l'éclat et un aspect plus volumineux à vos lèvres</small><br>
+                        <input type="checkbox">Crayon<br>
+                        <small>Fin et idéal pour donner de la divinité à vos lèvres</small><br>
+                        <input type="checkbox">Brillant<br>
+                        <small>Offre ce l'éclat et de la brillance à vos lèvres</small><br>
                     </label>
                     <img src="Masque_purifiant.jpg">
                     <p>Masque purifiant</p>
@@ -44,22 +57,22 @@
                     </label>
                     <img src="affordable-mascaras.jpg">
                     <p>Mascara</p>
-                    <label>
-                        <input type="checkbox" value="Mascara">
-                        <input type="number" min="1">
-                    </label>
-                    <img src="Serum-anti-age.webp">
-                    <p>Serum anti-âge</p>
-                    <label>
-                        <input type="checkbox" value="Serum_anti_age">
-                        <input type="number" min="1">
-                    </label>
-                    <img src="fond_de_teint.jpg">
-                    <p>Fond de teint</p>
-                    <label>
-                        <input type="checkbox" value="fond de teint">
-                        <input type="number" min="1">
-                    </label>
+                        <label>
+                            <input type="checkbox" value="Mascara">
+                            <input type="number" min="1">
+                        </label>
+                        <img src="Serum-anti-age.webp">
+                        <p>Serum anti-âge</p>
+                        <label>
+                            <input type="checkbox" value="Serum_anti_age">
+                            <input type="number" min="1">
+                        </label>
+                        <img src="fond_de_teint.jpg">
+                        <p>Fond de teint</p>
+                        <label>
+                            <input type="checkbox" value="fond de teint">
+                            <input type="number" min="1">
+                        </label>
                 </div>
                 <h2 id="Apropos_de_nous"></h2>
                 <h2 id="Contact">
@@ -67,8 +80,13 @@
                         togloessi@gmail.com
                         +228 00000000
                     </address>
-                </p>
+                </h2>            
             </div>
         </div>
-    </boby>
+    </main>
+    <footer>
+        @MycometicsWebpage tous droits réservés 2025
+    </footer>
+</boby>
+
 </html>
